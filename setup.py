@@ -13,8 +13,9 @@ VERSION = "1.0.0"
 # http://pypi.python.org/pypi/setuptools
 
 REQUIRES = [
-    "connexion",
-    "swagger-ui-bundle>=0.0.2"
+    "connexion[swagger-ui]>=2.6.0,<3.0.0",
+    "swagger-ui-bundle>=0.0.2",
+    "tinydb>=4.8.0"
 ]
 
 setup(
